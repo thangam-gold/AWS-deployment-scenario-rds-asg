@@ -1,0 +1,20 @@
+# AWS EC2 Auto Scaling + RDS Project
+
+This project deploys a web application using AWS EC2 Auto Scaling with an RDS MySQL database.
+
+## Components
+- EC2 instances behind an Auto Scaling Group
+- RDS MySQL instance with DB name `intel`
+- Security Groups for EC2 → RDS connectivity
+
+## How to Deploy
+   Steps To Solve:
+1. Launch an EC2 Instance
+2. Enable Auto Scaling on these instances (minimum 2)
+3. Create an RDS Instance
+4. Create Database & Table in RDS instance:
+a. Database name
+b. Table name
+5. Change hostname in website
+6. Allow traffic from EC2 to RDS instance
+7. Allow all-traffic to EC2 instance
